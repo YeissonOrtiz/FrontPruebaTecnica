@@ -1,7 +1,7 @@
 # FrontPruebaTecnica
 
 Developed by Yeisson Ortiz
-Backend: https://githuBackend: b.com/YeissonOrtiz/AppPruebaTecnica.git
+Backend: https://githuBackend:b.com/YeissonOrtiz/AppPruebaTecnica.git
 
 Este repositorio contiene el Frontend que da solución a la prueba tecnica dada.
 
