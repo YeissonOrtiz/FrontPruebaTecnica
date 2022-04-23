@@ -2,7 +2,7 @@ header h2{
   text-align: center;
 }
 
- form{
+form{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,16 +11,21 @@ header h2{
   height: 100%;
 }
 
- form .campo{
+form .campo{
   display: flex;
+  flex-direction: column;
   width: 40%;
   margin-bottom: 20px;
   justify-content: flex-end;
-  margin-right: 60px;
   place-items: center;
 }
 
- form .campo input{
+form .campo .input{
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+form .campo .input input{
   width: 450px;
   height: 30px;
   border-radius: 5px;
@@ -28,7 +33,7 @@ header h2{
   padding: 5px;
 }
 
- form .campo label{
+ form .campo .input label{
   margin-right: 20px;
 }
 

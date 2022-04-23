@@ -13,6 +13,7 @@ form{
 
 form .campo{
   display: flex;
+  flex-direction: column;
   width: 40%;
   margin-bottom: 20px;
   justify-content: flex-end;
@@ -20,7 +21,12 @@ form .campo{
   place-items: center;
 }
 
-form .campo input{
+form .campo .input{
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+form .campo .input input{
   width: 450px;
   height: 30px;
   border-radius: 5px;

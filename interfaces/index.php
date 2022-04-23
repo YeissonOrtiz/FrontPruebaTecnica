@@ -29,7 +29,6 @@
       <th>Primer Apellido</th>
       <th>Segundo Apellido</th>
       <th>Email</th>
-      <th>Password</th>
       <th>isActive</th>
       <th>Opciones</th>
     </tr>
@@ -43,7 +42,6 @@
         echo "<td>".$user->firstSurname."</td>";
         echo "<td>".$user->secondSurname."</td>";
         echo "<td>".$user->email."</td>";
-        echo "<td>".$user->password."</td>";
         if ($user->isActive) {
           echo "<td>" ."Activo". "</td>";
         }else{
