@@ -1,0 +1,56 @@
+header h2{
+  text-align: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main .campo p{
+  font-size: 20px;
+}
+
+main .campo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .campo p{
+  width: 100px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+main .campo .info{
+  width: 100px;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+section a{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
