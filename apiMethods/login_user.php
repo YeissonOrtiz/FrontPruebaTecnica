@@ -12,8 +12,6 @@
 
   $ch = curl_init();
 
-  echo $data;
-
   $options = array(
     CURLOPT_URL => 'https://apiusersyeisson.herokuapp.com/api/users/login',
     CURLOPT_RETURNTRANSFER => true,
@@ -24,7 +22,6 @@
 
   curl_setopt_array($ch, $options);
   $result = curl_exec($ch);
-  echo $result;
 
   curl_close($ch);
 
