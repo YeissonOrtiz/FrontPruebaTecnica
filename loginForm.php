@@ -43,7 +43,7 @@
     </p>
   </section>
   <section>
-    <a href="../interfaces/createForm.php">Registrarme</a>
+    <a href="./interfaces/createForm.php">Registrarme</a>
   </section>
   <script src="./validators/validatorLogin.js"></script>
 </body>

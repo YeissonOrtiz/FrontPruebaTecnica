@@ -7,7 +7,7 @@ Este repositorio contiene el Frontend que da solución a la prueba tecnica dada.
 
 El frontend está desarrollado en PHP, JS y CSS3.
 
-Durante este proyecto use PHP para consumir el API creada en el backend de la aplicación.
+En este proyecto use PHP para consumir el API creada en el backend de la aplicación.
 El consumo del API lo realice mediante la librerial cURL de PHP la cual me permitió realizar 
 los diferentes tipos de peticiones HTTP que requeria para dar satisfacer los requerimientos de la prueba.
 

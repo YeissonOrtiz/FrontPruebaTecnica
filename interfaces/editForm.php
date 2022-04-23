@@ -76,6 +76,9 @@
 
       <input type="submit" value="Actualizar usuario" id="submit">
     </form>
+    <section>
+      <a href="javascript:history.back()">Volver</a>
+    </section>
   </main>
   <script src="../validators/validatorCreate.js"></script>
 </body>

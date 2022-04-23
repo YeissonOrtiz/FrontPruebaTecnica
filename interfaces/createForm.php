@@ -65,6 +65,9 @@
     <input type="submit" value="Crear usuario" id="submit">
 
   </form>
+  <section>
+    <a href="javascript:history.back()">Volver</a>
+  </section>
   <script type="text/javascript" src="../validators/validatorCreate.js"></script>
 </body>
 </html>

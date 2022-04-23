@@ -47,3 +47,25 @@ form .campo .input input{
   font-weight: bold;
   cursor: pointer;
 }
+
+section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+a{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
