@@ -13,7 +13,7 @@
     <h2>Login</h2>
   </header>
 
-  <form action="../apiMethods/login_user.php" method="post">
+  <form action="./apiMethods/login_user.php" method="post">
     <div class="campo">
       <label for="email">Email:</label>
       <input type="text" name="email" id="email">
