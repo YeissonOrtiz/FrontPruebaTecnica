@@ -28,10 +28,11 @@
   session_start();
 
   if ($result == "true") {
-
+    header('Location: ../interfaces/index.php');
     $_SESSION["logged"] = true;
 
   }else{
+    header('Location: ../loginForm.php');
     $_SESSION["logged"] = false;
     $_SESSION["error"] = "Usuario o contraseña incorrectos";
   }

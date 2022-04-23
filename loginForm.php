@@ -24,16 +24,17 @@
     </div>
     <input type="submit" value="Login">
   </form>
-
-  <p class="alert">
-    <?php
-      session_start();
-      if (isset($_SESSION['error'])) {
-        echo $_SESSION['error'];
-        unset($_SESSION['error']);
-      }
-    ?>
-  </p>
+  <section>
+    <p class="alert">
+      <?php
+        session_start();
+        if (isset($_SESSION['error'])) {
+          echo $_SESSION['error'];
+          unset($_SESSION['error']);
+        }
+      ?>
+    </p>
+  </section>
   <section>
     <a href="../interfaces/createForm.php">Registrarme</a>
   </section>
